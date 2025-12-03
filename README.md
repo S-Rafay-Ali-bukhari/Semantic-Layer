@@ -40,24 +40,3 @@ Run the script:
 
 python semantic_results_gen.py
 
-
-📄 Output Artifacts
-
-When executed, the script generates two outputs:
-
-Console Output (The Evidence):
-A Pandas dataframe table printed to the terminal showing the result of the SPARQL query.
-
-Use Case: Take a screenshot of this table for your "Results" slide.
-
-Example Output:
-
-   Room URI   Asset URI Temperature  Last Maint
-0  Room_101     VAV_101      26.5°C  2023-01-15
-
-
-knowledge_graph.ttl (The Graph File):
-A Turtle syntax file containing the generated RDF triples.
-
-Use Case: You can open this file in any text editor (Notepad, VS Code) or load it into a Graph Database (like GraphDB or Protégé) to visualize the structure.
-
